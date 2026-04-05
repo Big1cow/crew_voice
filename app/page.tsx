@@ -76,7 +76,7 @@ export default function CrewPage() {
       })
 
       if (dbError) throw dbError
-      alert(t.success)
+      alert(t.success)；
       (e.target as HTMLFormElement).reset()
       setFile(null)
     } catch (err) {
